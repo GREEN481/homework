@@ -1,0 +1,18 @@
+.wrapper {
+  background: #ffa500;
+  height: 60px;
+}
+a {
+  color: #000;
+}
+.block2__text {
+  background: #eeb345;
+}
+.block3 {
+  height: 300px;
+  background: #9705c4;
+  color: #fff;
+}
+.block3__text {
+  color: #fff;
+}
