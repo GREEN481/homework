@@ -1,0 +1,43 @@
+body {
+font-size: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #000;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: auto;
+  line-height: 32px;
+}
+
+.block {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 5px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background: #e4bc80;
+  display: inline-block;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 50px 20px 0 20px;
+  margin: 0;
+  align-items: center;
+}
+
+.text {
+  margin: 0;
+  padding: 20px;
+  font-size: 18px;
+}
