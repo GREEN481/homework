@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Gabriola;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Gabriola"),
+    url("../fonts/Gabriola.woff2") format("woff2"),
+    url("../fonts/Gabriola.woff") format("woff");
+  display: swap;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  src: local("Montserrat"),
+    url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("../fonts/Montserrat-Medium.woff") format("woff");
+  display: swap;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Montserrat"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+  display: swap;
+}
