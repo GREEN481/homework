@@ -1,0 +1,229 @@
+@import "./fonts.css";
+@import "./reset.css";
+@import "./global.css";
+
+@import "./header.css";
+@import "./footer.css";
+
+/* ---------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+@media (max-width:1500px) {
+
+  /*------------------- Хедр-боди--------------------------------------------- */
+
+  .hero__consultation {
+    top: 2%;
+    right: -95%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:1200px) {
+
+  /* ---------------Футер-боттом(1200px)------------------------------------------------------- */
+  .line__left, .line__right {
+    width: 700px;
+  }
+}
+
+@media (max-width:1100px) {
+  .hero {
+    display: flex;
+  }
+
+  .hero__deploma-elips {
+    bottom: 5%;
+    right: -4%;
+  }
+
+  .hero__consultation {
+    top: 30%;
+    left: -10%;
+  }
+
+  /* ---------------Футер-боттом(1100px)------------------------------------------------------- */
+  .line__left, .line__right {
+    width: 550px;
+  }
+}
+
+@media (max-width:900px) {
+  .header__hero {
+    padding-top: 80px;
+  }
+
+  /* ----------------------Футер (900px)------------------------------------------------------- */
+  .footer {
+    padding: 45px 0 30px;
+  }
+
+  .footer__inner {
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .footer__info-inner {
+    align-items: center;
+  }
+
+  /* ---------------Футер-боттом(900px)------------------------------------------------------- */
+  .line__left, .line__right {
+    width: 450px;
+  }
+}
+
+@media (max-width:800px) {
+  .hero__title {
+    font-size: 80px;
+  }
+
+  .hero__consultation {
+    flex-direction: row;
+    top: 79%;
+    left: -100%;
+    gap: 10px;
+    position: absolute;
+    padding: 20px;
+  }
+
+  .hero__img-button img {
+    max-width: 80px;
+  }
+
+  .hero__consultation span {
+    transform: none;
+  }
+
+  /* ---------------Футер-боттом(800px)------------------------------------------------------- */
+  .line__left, .line__right {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+
+  /* -----------------Хэдр-топ(600px)----------------------------------------- */
+
+  .header__top-inner {
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  /* -------------------Хедр-боди(600px)----------------------------------------------- */
+  .hero__inner {
+    gap: 30px;
+  }
+
+  .hero__content {
+    font-size: 14px;
+  }
+
+  .hero__title {
+    font-size: 60px;
+  }
+
+  .hero__deploma-inner {
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+
+  .hero__deploma-img {
+    width: 60px;
+  }
+
+  .hero__deploma-text {
+    font-size: 14px;
+  }
+
+  .hero__deploma-elips {
+    bottom: 5%;
+    right: -4%;
+    transform: none;
+    bottom: -35%;
+    right: 40%;
+  }
+
+  .hero__deploma-button {
+    letter-spacing: 0px;
+  }
+
+  /* ----------------------Футер (600px)------------------------------------------------------- */
+  .footer__inner {
+    gap: 35px;
+  }
+
+  .footer__meta {
+    gap: 25px;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .footer__info-inner {
+    gap: 30px;
+  }
+
+  .footer__socials {
+    gap: 10px;
+  }
+
+}
+
+@media (max-width:450px) {
+
+  /* -----------------Хэдр-топ(450px)----------------------------------------- */
+
+  .header__top {
+    padding-top: 25px;
+  }
+
+  .header__top-inner {
+    gap: 30px;
+  }
+
+  /* -------------------Хедр-боди(450px)----------------------------------------------- */
+
+  .header__hero {
+    padding-top: 40px;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .hero__title {
+    font-size: 45px;
+  }
+
+  .hero__deploma-img {
+    display: none;
+  }
+
+  .hero__deploma-elips {
+    bottom: -32%;
+    right: 26%;
+  }
+
+  /* -------------------Модальное-окно---------------------------------------------------------- */
+  .modal {
+    padding: 10px;
+  }
+
+  .modal__window {
+    padding: 0 40px 40px;
+  }
+
+  /* ---------------Футер-боттом(450px)------------------------------------------------------- */
+
+  .footer__bottom {
+    padding: 35px 0 0 0;
+  }
+}
